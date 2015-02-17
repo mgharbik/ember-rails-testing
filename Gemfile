@@ -12,5 +12,9 @@ end
 
 group :development do
   gem 'spring'
+  gem 'quiet_assets'
+  gem 'meta_request'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
