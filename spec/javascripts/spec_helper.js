@@ -1,4 +1,5 @@
 //= require application.js.erb
+//= require support/testing_helpers
 //= require_self
 
 var d=document;

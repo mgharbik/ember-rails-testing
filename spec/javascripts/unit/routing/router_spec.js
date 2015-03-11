@@ -5,17 +5,9 @@ module('Routing specs', {
 });
 
 test('root route',function(){ 
-	visit('/');
-	andThen(function () {
-		var current_route = AddressBook.__container__.lookup('controller:application').currentRouteName;
-        equal(current_route, 'index', 'Expected index got: ' + current_route);
-	}); 
+	routesTo('/', 'index'); 
 });
 
 test('contacts route',function(){ 
-	visit('/contacts');
-	andThen(function () {
-		var current_route = AddressBook.__container__.lookup('controller:application').currentRouteName;
-        equal(current_route, 'contacts.index', 'Expected contacts got: ' + current_route);
-	}); 
+	routesTo('/contacts', 'contacts.index');
 });
