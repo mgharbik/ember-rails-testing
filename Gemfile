@@ -29,5 +29,5 @@ group :test, :development do
   gem 'guard-teaspoon'
   gem 'teaspoon'
   gem 'spring-commands-teaspoon'
-  gem "phantomjs" # this is optional if the phantomjs binary is installed on your system
+  gem "phantomjs"
 end
