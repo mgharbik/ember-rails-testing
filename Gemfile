@@ -19,3 +19,8 @@ group :development do
   gem 'binding_of_caller'
 end
 
+group :test, :development do 
+  gem 'factory_girl_rails' 
+  gem 'rspec-rails'
+  gem 'spring-commands-rspec'
+end
