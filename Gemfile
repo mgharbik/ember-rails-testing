@@ -23,4 +23,11 @@ group :test, :development do
   gem 'factory_girl_rails' 
   gem 'rspec-rails'
   gem 'spring-commands-rspec'
+
+  gem 'growl'
+  gem 'guard-rspec'
+  gem 'guard-teaspoon'
+  gem 'teaspoon'
+  gem 'spring-commands-teaspoon'
+  gem "phantomjs" # this is optional if the phantomjs binary is installed on your system
 end
